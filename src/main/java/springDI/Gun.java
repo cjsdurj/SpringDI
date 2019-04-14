@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Far
 public class Gun implements Weapon {
-     private String name = "ÊÖÇ¹";
+     private String name = "æ‰‹æžª";
 
 	public String getName() {
 		return name;

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @NonSharp
 public class Cudgel implements Weapon {
 
-	private String name ="π˜";
+	private String name ="Ê£ç";
 
 	public String getName() {
 		return name;

@@ -9,7 +9,7 @@ public class Hero {
      private Weapon weapon;
      public Hero() {};
      
-     //¹¹Ôìº¯Êý×÷Îª×¢Èëµã
+   //æž„é€ å‡½æ•°ä½œä¸ºæ³¨å…¥ç‚¹
      
      public Hero(Weapon w) {
     	 this.weapon = w;
@@ -20,7 +20,7 @@ public class Hero {
 		return weapon;
 	}
      
-	//settter×÷Îª×¢Èëµã
+	//settterä½œä¸ºæ³¨å…¥ç‚¹
 	@Autowired
 	@Close
 	@Sharp
@@ -29,6 +29,6 @@ public class Hero {
 	}
      
      public void attack() {
-    	 System.out.println("Ó¢ÐÛÊ¹ÓÃ"+weapon.getName()+"¹¥»÷");
+    	 System.out.println("è‹±é›„ä½¿ç”¨"+weapon.getName()+"æ”»å‡»");
      }
 }

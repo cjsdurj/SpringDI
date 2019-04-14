@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Close
 @Sharp
 public class Knife implements Weapon {
-    private String name ="µ¶";
+    private String name ="åˆ€";
 	public String getName() {
 		return name;
 	}
